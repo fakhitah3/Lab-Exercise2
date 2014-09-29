@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tuition Calculation</title>
+<style type="text/css">
+#form1 center table {
+	font-size: 10px;
+}
+#form1 center table {
+	font-size: medium;
+}
+body {
+	background-image: url(Bground3.jpg);
+}
+</style>
+</head>
+
+<body>
+<form id="form1" name="form1"  action="./tuitionCalculation">
+  <center>
+    <table width="506" border="1">
+      <tr>
+        <td width="496" height="34" align="center" style="background-color: lightgrey; color: #FFF; font-weight: bold;">TUITION CALCULATION</span></td>
+      </tr>
+      <tr>
+        <td height="186"><table width="416" border="0" align="center">
+          <tr>
+            <td width="384" height="41" align="center">Number of AAS course(s) :
+              <label for="aasTextBox"></label>
+              <input type="text" name="aasTextBox" id="aasTextBox" />
+($120)</td>
+          </tr>
+          <tr>
+            <td height="37" align="center">Number of ESL course(s) :
+              <label for="eslTextBox"></label>
+              <input type="text" name="eslTextBox" id="eslTextBox2" />
+($75)</td>
+          </tr>
+          <tr>
+            <td height="40" align="center">Type of Student :
+              <label for="discountRateSelectBox2"></label>
+              <select name="discountRateSelectBox" id="discountRateSelectBox2">
+                <option value="0">Normal</option>
+                <option value="10">10% Discount</option>
+                <option value="20">20% Discount</option>
+                <option value="50">50% Discount</option>
+              </select></td>
+          </tr>
+          <tr>
+            <td height="40" align="center"><input type="submit" name="calculateButton" id="calculateButton" value="Calculate" /></td>
+          </tr>
+        </table></td>
+      </tr>
+  </table></center>
+</form>
+</body>
+</html>

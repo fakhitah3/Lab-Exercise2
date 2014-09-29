@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Currency Exchange</title>
+<style>
+#table1 {
+	background-color: #6960EC;
+	color: black;
+	font-weight: bold;
+}
+body {
+	background-image: url(Bground2.jpg);
+	color: #FFF;
+}
+</style>
+</head>
+
+<body>
+<form action="./currencyExchange" enctype="multipart/form-data" name="form1" id="form1">
+  <center>
+    <table width="514" height="257" border="1">
+      <tr>
+      <th style="background-color: lightgrey; color: #333;" width="532" height="37" scope="col">CURRENCY EXCHANGE</th>
+    </tr>
+    <center>
+      <tr>
+      <td align="center"><p>&nbsp;</p>
+        <table width="200" border="1" align="right" id="table1">
+        <tr>
+          <th colspan="2" scope="col">Exchange Rate</th>
+        </tr>
+        <tr>
+          <td align="center">Currency</td>
+          <td align="center">Rate</td>
+        </tr>
+        <tr>
+          <td align="center">USD</td>
+          <td align="center">16,452</td>
+        </tr>
+        <tr>
+          <td align="center">EUR</td>
+          <td align="center">25,170.38</td>
+        </tr>
+        <tr>
+          <td align="center">JPY</td>
+          <td align="center">151.23</td>
+        </tr>
+    </table>
+        <table width="250" height="170" border="0" align="left">
+          <tr>
+            <th scope="col">VND:
+              <label for="vndTextBox"></label>
+              <input type="text" name="vndTextBox" id="vndTextBox" />            </th>
+          </tr>
+          <tr>
+            <td align="center"><input type="radio" name="desCurrencyRadio" value="USD" />
+              <label for="desCurrencyRadio2"></label>
+USD
+<input type="radio" name="desCurrencyRadio" value="EUR" />
+EUR
+<input type="radio" name="desCurrencyRadio" value="JPY" />
+JPY </td>
+          </tr>
+          <tr>
+            <td align="center"><input type="submit" name="exchangeButton" id="exchangeButton" value="Exchange" /></td>
+          </tr>
+        </table></td>
+    </tr></center>
+</table></center>
+</form>
+</body>
+</html>

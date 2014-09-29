@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grade Calculator</title>
+<style type="text/css">
+body {
+	background-image: url(Bground4.jpg);
+}
+#form1 center table center tr td p {
+	color: #FFF;
+}
+#form1 center table center tr td p {
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<form id="form1" name="form1" action="./gradeCalculator">
+  <center><table width="409" border="1">
+    <tr>
+      <th style="background-color:lightgrey" width="329" height="56" scope="col">GRADE CALCULATOR</th>
+    </tr>
+    <center>
+      <tr>
+      <td align="center"><p>Midterm : 
+          <label for="midTermTextBox"></label>
+          <input type="text" name="midTermTextBox" id="midTermTextBox" />
+          (30%)</p>
+        <p>Project :
+          <label for="finalTextBox"></label>
+          <input type="text" name="projectTextBox" id="projectTextBox" />
+        (30%)</p>
+        <p>Final : 
+          <input type="text" name="finalTextBox" id="finalTextBox" />
+        (40%)</p>
+        <p>
+          <input type="submit" name="getResultButton" id="getResultButton" value="Get Result" />
+      </p></td>
+    </tr></center>
+  </table></center>
+</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Body Mass Index</title>
+<style>
+th {
+    background-color: green;
+    color:yellow;
+}
+body {
+	background-image: url(BMI%20Background.jpg);
+}
+</style>
+</head>
+
+<body>
+<form id="form1" name="form1" action="./bmi">
+  <center><table width="409" border="1">
+    <tr>
+      <th width="329" height="39" colspan="2" scope="col">BODY MASS INDEX</th>
+    </tr>
+    <tr>
+      <td align="right"><p>Your Weight:</p></td>
+      <td><p>
+        <label for="markTextBox"></label>
+        <input type="text" name="weightTextBox" id="weightTextBox" />
+        (Kg)</p></td>
+    </tr>
+      <tr>
+        <td align="right">Your Height:
+          <label for="markTextBox3"></label></td>
+        <td><input type="text" name="heightTextBox" id="heightTextBox" />
+          (m) </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="calculateBMIButton" id="calculateBMIButton" value="Calculate" /></td>
+      </tr>
+    
+  </table></center>
+</form>
+</body>
+</html>

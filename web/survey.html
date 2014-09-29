@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Warna Radio Survey</title>
+<style type="text/css">
+.Header {
+	color: #3C9;
+}
+.row3 {
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: small;
+}
+.required {
+	color: #F00;
+	font-weight: bold;
+}
+body {
+	background-image: url(Bground6.jpg);
+}
+.h1 {
+	color: #FFF;
+}
+</style>
+<script src="gen_validatorv4.js" type="text/javascript"></script>
+</head>
+
+<body>
+<form name="surveyresults" method="post" action="./PreviewSurvey">.
+  <table width="525" border="1" align="center">
+    <tr>
+      <td width="515" height="91" align="center" class="Header"><img src="coollogo_com-87093150.png" width="542" height="87" /></td>
+    </tr> 
+    <tr>
+      <td height="40" align="center"><h1 class="h1">Listener Survey</h1></td>
+    </tr>
+    <tr>
+      <td height="100" bgcolor="#FF9966"><p align="center"> <span class="row3">Please answer the following questions so our radio station can better serve you, our
+          listeners.</span></p>
+        <table width="484" border="0" align="center" cellspacing="1">
+          <tr>
+            <td width="147" align="right" class="required">Name *:</td>
+            <td width="144"><input type="text" name="Name" id="Name" /></td>
+          </tr>
+          <tr>
+            <td align="right" class="required">Email *:</td>
+            <td><input type="text" name="Email" id="Email" /></td>
+          </tr>
+          <tr>
+            <td align="right">Contact Number :</td>
+            <td><input type="text" name="Contact No" id="Contact No" /></td>
+          </tr>
+          <tr>
+            <td align="right">Musical Preference : </td>
+            <td><p>
+              <label>
+                <input type="checkbox" name="Musical Preference" value="Easy Listening" id="musicPreference_0" />
+                Easy Listening</label>
+              <br />
+              <label>
+                <input type="checkbox" name="Musical Preference" value="Rock n' Roll" id="musicPreference_1" />
+                Rock n' Roll</label>
+              <br />
+              <label>
+                <input type="checkbox" name="Musical Preference" value="Jazz" id="musicPreference_2" />
+                Jazz</label>
+              <br />
+              <label>
+                <input type="checkbox" name="Musical Preference" value="Classical" id="musicPreference_3" />
+                Classical</label>
+              <br />
+              <label>
+                <input type="checkbox" name="Musical Preference" value="Folk" id="musicPreference_4" />
+                Folk</label>
+              <br />
+              <label>
+                <input type="checkbox" name="Musical Preference" value="Heavy Metal" id="musicPreference_5" />
+                Heavy Metal</label>
+            </p></td>
+          </tr>
+          <tr>
+            <td align="right">Favourite Music Decade :
+            <label for="Favourite Music"></label></td>
+            <td><select name="Favourite Music" id="Favourite Music">
+              <option value="Fifties" selected="selected">Fifties</option>
+              <option value="Sixties">Sixties</option>
+              <option value="Seventies">Seventies</option>
+              <option value="Eighties">Eighties</option>
+              <option value="Nineties">Nineties</option>
+              <option value="Tens">Tens</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td align="right">Days of The Week :</td>
+            <td><label>
+              <input type="radio" name="Days of the Week" value="Sunday" id="RadioGroup1_0" />
+              Sunday</label>
+              <br />
+              <label>
+                <input type="radio" name="Days of the Week" value="Monday" id="RadioGroup1_1" />
+                Monday</label>
+              <br />
+              <label>
+                <input type="radio" name="Days of the Week" value="Tuesday" id="RadioGroup1_2" />
+                Tuesday</label>
+              <br />
+              <label>
+                <input type="radio" name="Days of the Week" value="Wednesday" id="RadioGroup1_3" />
+                Wednesday</label>
+              <br />
+              <label>
+                <input type="radio" name="Days of the Week" value="Thursday" id="RadioGroup1_4" />
+                Thursday</label>
+              <br />
+              <label>
+                <input type="radio" name="Days of the Week" value="Friday" id="RadioGroup1_5" />
+                Friday</label>
+              <br />
+              <label>
+                <input type="radio" name="Days of the Week" value="Saturday" id="RadioGroup1_6" />
+            Saturday</label></td>
+          </tr>
+          <tr>
+            <td align="right">I listen to WARNA Radio </td>
+            <td><select name="I Listen to WARNA Radio" id="I Listen to WARNA Radio">
+              <option value="Everyday" selected="selected">Everyday</option>
+              <option value="One Day in a Week">One Day in a Week</option>
+              <option value="2 or 3 Days">2 or 3 Days</option>
+              <option value="4 or 5 Days">4 or 5 Days</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td align="right">Prefer to Listen :</td>
+            <td><p>
+              <label>
+                  <input type="checkbox" name="Prefer to Listen" value="At Home" id="CheckboxGroup1_0" />
+                  At Home?</label>
+                <br />
+                <label>
+                  <input type="checkbox" name="Prefer to Listen" value="At Work" id="CheckboxGroup1_1" />
+                  At work?</label>
+                <br />
+                <label>
+                  <input type="checkbox" name="Prefer to Listen" value="In Car" id="CheckboxGroup1_2" />
+                  In your car?</label>
+              </p></td>
+          </tr>
+          <tr>
+            <td align="right">Additional Comments :</td>
+            <td><textarea name="Comments" id="Comments" cols="45" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td align="right">Subscribe to Newsletter:</td>
+            <td><input name="Subscribe to Newsletter" type="checkbox" id="Subscribe to Newsletter" value="Yes" /></td>
+          </tr>
+          <tr>
+            <td align="right"><label for="Subscribe to Newsletter"></label></td>
+            <td><input type="submit" /></td>
+          </tr>
+         </table>
+   </table>
+</form>
+<script  type="text/javascript">
+ var frmvalidator = new Validator("surveyresults");
+ frmvalidator.addValidation("Name","req","Please enter your Name");
+ frmvalidator.addValidation("Email","req","Please enter your Email");
+ frmvalidator.addValidation("Email","email", "Please enter a valid email");
+</script>
+</body>
+</html>
